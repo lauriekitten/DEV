@@ -1,0 +1,26 @@
+div:first-child {
+    background-color: palevioletred;
+}
+
+.bild {
+    padding: 10px;
+    background-color: hotpink;
+    color: white;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.text {
+    color: black;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
