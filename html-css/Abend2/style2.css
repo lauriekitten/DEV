@@ -10,7 +10,9 @@
      width: 20%;
     float: left;
       }
-
+//damit es keine höhe braucht.:
+//margin-bottom: -99999px;
+//paddint-bottom: 99999px
 .content {
     background-color: lightpink;
     height: 70%;
@@ -23,7 +25,7 @@
     background-color: blueviolet;
     height: 70%;
     width: 20%;
-    float: right;;
+   float: right;;
 
 }
 
