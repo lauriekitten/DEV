@@ -17,6 +17,7 @@ ul {
 
 
 ul li {
+    float: right;
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
@@ -67,6 +68,14 @@ input {
     padding: 10px;
     float: left;
     font-size: 16px;
+}
+
+.checked {
+
+    margin-left: 20px;
+    //position: relative;
+    //padding: 12px 8px 12px 40px;
+    background: white;
 }
 
 
