@@ -40,6 +40,12 @@
     height: 15%;
 }
 
+.flexcenter {
+    display: flex;
+    justify-content: center;
+
+}
+
 /* Portrait */
 @media (max-width: 768px) {
     .flex {
