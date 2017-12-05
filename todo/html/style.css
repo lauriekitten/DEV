@@ -17,10 +17,10 @@ ul {
 
 
 ul li {
-    float: right;
+    //float: right;
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 40px;
+    padding: 12px 8px 12px 4px;
     list-style-type: none;
     background: white;
     border-bottom: 1px black;
@@ -28,7 +28,7 @@ ul li {
     transition: 0.2s;
     margin-left: 40px;
     border-top: 1px solid #eee;
-    width: 75%;
+    width: 50%;
 
 }
 
@@ -64,18 +64,37 @@ ul li:hover {
 
 input {
     border: none;
-    width: 75%;
+    width: 51.5%;
     padding: 10px;
     float: left;
     font-size: 16px;
 }
 
 .checked {
+    float: left;
+    padding-right: 10px;
+    //padding: 12px 12px;
+    //background: white;
+    //border-bottom: 1px black;
+    //font-size: 18px;
+    //border-top: 1px solid #eee;
+}
 
-    margin-left: 20px;
-    //position: relative;
-    //padding: 12px 8px 12px 40px;
+/*.checked {
+    float: left;
+    margin-left: 40px;
+    padding: 12px 12px;
     background: white;
+    border-bottom: 1px black;
+    font-size: 18px;
+    border-top: 1px solid #eee;
+} */
+.checked:hover {
+    background: #ddd;
+}
+.close {
+    float: right;
+    margin-left: 100px;
 }
 
 
