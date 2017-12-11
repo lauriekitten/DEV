@@ -19,6 +19,8 @@ ul {
 
 ul li {
     //float: right;
+    display: flex;
+    flex-direction: row;
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 4px;
@@ -29,8 +31,12 @@ ul li {
     transition: 0.2s;
     margin-left: 40px;
     border-top: 1px solid #eee;
-    width: 50%;
+    width: 20%;
 
+}
+
+.todo {
+    flex: 2;
 }
 
 
@@ -67,14 +73,16 @@ ul li:hover {
 
 input {
     border: none;
-    width: 51.5%;
+    width: 20.5%;
     padding: 10px;
     float: left;
     font-size: 16px;
 }
 
 .checked {
-    float: left;
+    //display: flex;
+    //flex: 1;
+    //float: left;
     padding-right: 10px;
     //padding: 12px 12px;
     //background: white;
@@ -96,7 +104,10 @@ input {
     background: #ddd;
 }
 .close {
-    float: right;
+    //idth: 5rem;
+    dislpay: flex;
+    justify-content: flex-end;
+    //float: right;
     margin-left: 100px;
 }
 

@@ -1,0 +1,17 @@
+.text {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+
+
+    transition: all 1s cubic-bezier(.09,1.24,1,-0.6);
+
+}
+
+.text:hover {
+    background-color: lightpink;
+    color: hotpink;
+    width: 200px;
+    height:200px;
+    margin: 30px;
+}
