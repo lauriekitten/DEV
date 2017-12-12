@@ -23,7 +23,7 @@ ul li {
     flex-direction: row;
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 4px;
+    padding: 12px 8px 1px 8px;
     list-style-type: none;
     background: white;
     border-bottom: 1px black;
@@ -91,15 +91,7 @@ input {
     //border-top: 1px solid #eee;
 }
 
-/*.checked {
-    float: left;
-    margin-left: 40px;
-    padding: 12px 12px;
-    background: white;
-    border-bottom: 1px black;
-    font-size: 18px;
-    border-top: 1px solid #eee;
-} */
+
 .checked:hover {
     background: #ddd;
 }
