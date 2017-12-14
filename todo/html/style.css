@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
 
 body {
     margin: 0;
@@ -5,19 +9,27 @@ body {
     background-color: #eee;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+.title {
+    background-color: #eee;
+    padding-top: 40px;
+    color: black;
+    margin-left: 40px;
 }
 
+input {
+    border: none;
+    width: 20.5%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
 
-ul {
+.todo {
     margin: 0;
     padding: 0;
 }
 
-
-ul li {
+.todo_item {
     //float: right;
     display: flex;
     flex-direction: row;
@@ -35,25 +47,18 @@ ul li {
 
 }
 
-.todo {
-    flex: 2;
-}
-
-
-
-
-
-ul li:hover {
+.todo_item:hover {
     background: #ddd;
 }
 
+.todo_name {
+    flex: 2;
+}
 
-.title {
-    background-color: #eee;
-    padding-top: 40px;
-    color: black;
-    //text-align: center;
-    margin-left: 40px;
+.todo_button {
+    dislpay: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
 }
 
 
@@ -69,38 +74,13 @@ ul li:hover {
     clear: both;
 }
 
-
-
-input {
-    border: none;
-    width: 20.5%;
-    padding: 10px;
-    float: left;
-    font-size: 16px;
-}
-
 .checked {
-    //display: flex;
-    //flex: 1;
-    //float: left;
     padding-right: 10px;
-    //padding: 12px 12px;
-    //background: white;
-    //border-bottom: 1px black;
-    //font-size: 18px;
-    //border-top: 1px solid #eee;
 }
-
 
 .checked:hover {
     background: #ddd;
 }
-.close {
-    //idth: 5rem;
-    dislpay: flex;
-    justify-content: flex-end;
-    //float: right;
-    margin-left: 100px;
-}
+
 
 
