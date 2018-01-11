@@ -8,9 +8,11 @@ body {
   min-width: 250px;
   background-color: #eee; }
 
+h1 {
+  margin: 20px 100px; }
+
 .title {
   background-color: #eee;
-  padding-top: 40px;
   color: black;
   margin-left: 40px; }
 
@@ -22,9 +24,8 @@ body {
   font-size: 16px; }
 
 .todo {
-  margin: 0;
+  margin: -30px;
   padding: 0px;
-  margin-left: 40px;
   list-style-type: none; }
   .todo__item {
     display: flex;
@@ -61,6 +62,14 @@ body {
   .todo__button:hover {
     background: #ddd;
     text-decoration: none; }
+
+.paper {
+  margin-left: 40px;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #eee, 0 10px 1px -4px rgba(0, 0, 0, 0.15), 0 20px 0 -10px #eee, 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  /* Padding for demo purposes */
+  padding: 30px; }
 
 .todo:after {
   padding: 16px 16px 16px 60px;

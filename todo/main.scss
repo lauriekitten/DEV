@@ -8,10 +8,12 @@ body {
   background-color: #eee;
   //background-color: lightpink;
 }
-
+h1 {
+  margin: 20px 100px;
+}
 .title {
   background-color: #eee;
-  padding-top: 40px;
+  //padding-top: 10px;
   color: black;
   margin-left: 40px;
 }
@@ -26,9 +28,9 @@ body {
 
 
 .todo {
-  margin: 0;
+  margin: -30px;
   padding: 0px;
-  margin-left: 40px;
+  //margin-left: 40px;
   list-style-type: none;
 
   &__item {
@@ -36,6 +38,7 @@ body {
     flex-direction: row;
     cursor: pointer;
     position: relative;
+    //padding: 10px 8px 10px 8px;
     padding: 10px 8px 10px 8px;
     list-style-type: none;
     height: 50px;
@@ -78,6 +81,25 @@ body {
     text-decoration: none;
   }
 
+}
+
+.paper {
+  margin-left: 40px;
+  width: 300px;
+  background: #fff;
+  box-shadow:
+          /* The top layer shadow */
+          0 1px 1px rgba(0,0,0,0.15),
+            /* The second layer */
+          0 10px 0 -5px #eee,
+            /* The second layer shadow */
+          0 10px 1px -4px rgba(0,0,0,0.15),
+            /* The third layer */
+          0 20px 0 -10px #eee,
+            /* The third layer shadow */
+          0 20px 1px -9px rgba(0,0,0,0.15);
+  /* Padding for demo purposes */
+  padding: 30px;
 }
 
 
